@@ -1,0 +1,144 @@
+
+body{
+    background: rgb(34,53,152);
+    background: linear-gradient(180deg, rgba(34,53,152,1) 0%, rgba(98,60,254,1) 50%, rgb(109, 43, 184) 100%);
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 1.5em;
+}
+
+hr {
+    border-style: dotted none none;
+    border-color: #fc92e3;
+    border-width: 5px;
+    width: 10%;
+}
+
+h1{
+    font-size: 5rem;
+    font-style: italic;
+    font-family: 'Sacramento', cursive;
+    margin-top: 0px;
+    color:rgb(248, 71, 219);
+    padding: 0px;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-style: italic;
+    margin-top: 0px;
+    color:rgb(248, 71, 219);
+    padding-bottom: 10px;
+}
+
+h3{
+    font-style: italic;
+    margin-top: 0px;
+    color:rgb(248, 71, 219);
+    padding: 0px;
+}
+
+p {
+    color: rgb(253, 48, 226);
+    font-weight: normal;
+    line-height: 2;
+}
+
+
+a:link {
+    color:#f5abc9;
+    background-color: transparent;
+    text-decoration: none;
+    margin: 10px 20px;
+  }
+
+a:visited {
+    color: #f4a9a8;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+/* https://cdn.dribbble.com/users/1786756/screenshots/4896376/002---tropical-grid.gif  is the original url*/
+
+.monitor{
+    background-image: url("tropical.gif");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 400px 300px;
+    border-radius: 70px;
+}
+
+.top-container {
+       text-align: center;
+}
+
+.mid-container{
+      text-align: center;
+      margin: 100px 0;
+}
+
+.bot-container{
+    text-align: center;
+    background-color: #233e8b;
+    padding: 50px 0 20px;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.pro1 {
+    font-style: italic;
+    font-family: fantasy;
+}
+
+.icon {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+}
+
+.Picture {
+    border-radius: 50%;
+}
+
+.btn {
+    background: #cc39bb;
+    background-image: -webkit-linear-gradient(top, #cc39bb, #f4a9a8);
+    background-image: -moz-linear-gradient(top, #cc39bb, #f4a9a8);
+    background-image: -ms-linear-gradient(top, #cc39bb, #f4a9a8);
+    background-image: -o-linear-gradient(top, #cc39bb, #f4a9a8);
+    background-image: linear-gradient(to bottom, #cc39bb, #f4a9a8);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #80edf5);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #80edf5);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #80edf5);
+    background-image: -o-linear-gradient(top, #3cb0fd, #80edf5);
+    background-image: linear-gradient(to bottom, #3cb0fd, #80edf5);
+    text-decoration: none;
+  }
